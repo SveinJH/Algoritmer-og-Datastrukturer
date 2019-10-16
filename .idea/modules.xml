@@ -4,6 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Øving1/Øving1.iml" filepath="$PROJECT_DIR$/Øving1/Øving1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Øving2/Øving2.iml" filepath="$PROJECT_DIR$/Øving2/Øving2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Øving3/Øving3.iml" filepath="$PROJECT_DIR$/Øving3/Øving3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Øving4/Øving4.iml" filepath="$PROJECT_DIR$/Øving4/Øving4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Øving5/Øving5.iml" filepath="$PROJECT_DIR$/Øving5/Øving5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Øving7/Øving7.iml" filepath="$PROJECT_DIR$/Øving7/Øving7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Øving8/Øving8.iml" filepath="$PROJECT_DIR$/Øving8/Øving8.iml" />
     </modules>
   </component>
 </project>

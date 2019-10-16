@@ -16,6 +16,8 @@ public class Rek {
         }
     }
 
+
+    // A=1, B=2 ---> O(log n)
     public static double oppgave2(int n, double x){
         if(n <= 0){
             return 1;
@@ -30,11 +32,11 @@ public class Rek {
         Date start = new Date();
         int runder = 0;
         double tid;
-        double svar = 0.0;
+        double svar;
         Date slutt;
 
         do {
-            svar = oppgave2(1023, 2.0);
+            svar = Math.pow(2.0, 1023);
             slutt = new Date();
             runder++;
         } while ((slutt.getTime() - start.getTime()) < 1000);
