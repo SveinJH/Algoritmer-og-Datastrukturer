@@ -13,7 +13,7 @@ public class EdmondKarp {
 
     public void edmondKarp(String path) {
         readGraph(path);
-        System.out.println("Maksimum flyt fra 0 til "+sluk+" med Edmond-Karp");
+        System.out.println("Maksimum flyt fra 0 til " + sluk + " med Edmond-Karp");
         System.out.println("Økning : Flytøkende vei");
 
         int maxFlow = 0;
@@ -22,17 +22,17 @@ public class EdmondKarp {
 
             Vkant[] vei = new Vkant[N];
 
-            ArrayList<Node> q = new ArrayList<>();
-            q.add(node[0]);
+            ArrayList<Node> queue = new ArrayList<>();
+            queue.add(node[0]);
 
-            //BFS
-            while (!q.isEmpty()) {
-                Node n = q.remove(0);
+            // Bredde-Først Søk
+            while (!queue.isEmpty()) {
+                Node n = queue.remove(0);
 
                 for (Vkant vk : n.vkanter) {
                     if (vei[vk.to] == null && vk.to != 0 && vk.distance > vk.flyt) {
                         vei[vk.to] = vk;
-                        q.add(node[vk.to]);
+                        queue.add(node[vk.to]);
                     }
                 }
             }
@@ -41,16 +41,18 @@ public class EdmondKarp {
                 break;
             }
 
-            int pushFlyt = Integer.MAX_VALUE;
+            // Finner minste flyt
+            int restKap = Integer.MAX_VALUE;
             for(Vkant vk = vei[sluk]; vk != null; vk = vei[vk.from]) {
-                pushFlyt = Math.min(pushFlyt, vk.distance - vk.flyt);
+                restKap = Math.min(restKap, vk.distance - vk.flyt);
             }
 
+            // Justerer flyten i eksisterende kanter og deres revers.
             for(Vkant vk = vei[sluk]; vk != null; vk = vei[vk.from]) {
-                vk.flyt += pushFlyt;
-                vk.reverse.flyt -= pushFlyt;
+                vk.flyt += restKap;
+                vk.reverse.flyt -= restKap;
             }
-            System.out.print(" " + pushFlyt + " : ");
+            System.out.print(" " + restKap + " : ");
 
 
 
@@ -66,7 +68,7 @@ public class EdmondKarp {
             System.out.print(" " + sluk);
 
             System.out.print("\n");
-            maxFlow += pushFlyt;
+            maxFlow += restKap;
         }
         System.out.println("Maximum float was: " + maxFlow);
     }
@@ -77,7 +79,7 @@ public class EdmondKarp {
             StringTokenizer st = new StringTokenizer(br.readLine());
             N = Integer.parseInt(st.nextToken());
             node = new Node[N];
-            sluk = N - 1;
+            sluk = 1;
 
             for(int i = 0; i < N; i++) {
                 node[i] = new Node();
@@ -91,6 +93,7 @@ public class EdmondKarp {
                 int to = Integer.parseInt(st.nextToken());
                 int weight = Integer.parseInt(st.nextToken());
 
+                // Hjelpekant reverseVK
                 Vkant vk = new Vkant(from, to, 0, weight);
                 Vkant reverseVK = new Vkant(to, from, 0, 0);
 
@@ -99,8 +102,17 @@ public class EdmondKarp {
 
                 node[from].vkanter.add(vk);
                 node[to].vkanter.add(reverseVK);
-            }
 
+
+                /*for(int j = 0; j < node.length; j++) {
+                    if(node[j].vkanter.size() > 0) {
+                        for(int k = 0; k < node[j].vkanter.size(); k++) {
+                            System.out.println(" " + j + " : " + node[j].vkanter.get(k).from + " til " + node[j].vkanter.get(k).to);
+                        }
+                    }
+                }*/
+
+            }
         } catch(Exception e) {
             e.printStackTrace();
         }

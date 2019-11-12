@@ -1,11 +1,9 @@
-class Vkant {
-
-    int from, to, flyt , distance;
-    Vkant reverse;
+class Vkant extends Kant{
+    protected int flyt , distance;
+    protected Vkant reverse;
 
     public Vkant(int from , int to , int flyt , int distance) {
-        this.from = from;
-        this.to = to;
+        super(from, to);
         this.flyt = flyt;
         this.distance = distance;
     }

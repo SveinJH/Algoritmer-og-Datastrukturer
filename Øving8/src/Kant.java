@@ -1,9 +1,9 @@
 public class Kant {
+    protected int from;
     protected int to;
-    protected int next;
 
-    public Kant(int to, int next) {
+    public Kant(int from, int to) {
+        this.from = from;
         this.to = to;
-        this.next = next;
     }
 }
