@@ -5,9 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
-/**
- * Created by Knut on 13.11.2016.
- */
+
 public class LempelZivDekompresjon {
 
     private final int REFERENCE_BYTES = 3;
