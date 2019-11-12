@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c17c11d6-44ee-448a-a590-76477fee5ea1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Øving12/src/FileAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Øving12/src/Compressing/LZ77.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Øving12/src/Compressing/LempelZiv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Øving12/src/Compressing/LempelZivKompresjon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Øving12/src/Compressing/LempelZivKompresjon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Øving12/src/Compressing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Øving12/src/Compressing/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Øving12/src/Compressing/problem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Øving12/src/Compressing/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Øving12/src/Decompressing/LempelZivDekompresjon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Øving12/src/Decompressing/LempelZivDekompresjon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Øving12/src/Compressing/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Øving12/src/Filer/ukomprimert.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Øving12/src/Decompressing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Øving12/src/Decompressing/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Øving12/src/Compressing/LempelZivKompresjon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="100" column="34" lean-forward="true" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
+            <state relative-caret-position="1751">
+              <caret line="103" column="46" selection-start-line="103" selection-start-column="46" selection-end-line="103" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,20 +54,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Øving12/src/Compressing/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Øving12/src/Compressing/input.txt">
+        <entry file="file://$PROJECT_DIR$/Øving12/src/Filer/ukomprimert.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -77,22 +76,22 @@
         <entry file="file://$PROJECT_DIR$/Øving12/src/Decompressing/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Øving12/src/Compressing/komprimert.lz">
+        <entry file="file://$PROJECT_DIR$/Øving12/src/Filer/komprimert.lz">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="136">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Øving12/src/Decompressing/dekomprimert.txt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Øving12/src/Filer/dekomprimert.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
@@ -124,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Øving4/src/Oppgave1/Liste.java" />
         <option value="$PROJECT_DIR$/Øving4/src/Oppgave1/Main.java" />
         <option value="$PROJECT_DIR$/Øving5/src/personer.txt" />
         <option value="$PROJECT_DIR$/Øving5/src/Hashtabell.java" />
@@ -169,12 +167,13 @@
         <option value="$PROJECT_DIR$/Øving12/src/Huffman/Main.java" />
         <option value="$PROJECT_DIR$/Øving12/src/Compressing/problem.txt" />
         <option value="$PROJECT_DIR$/Øving12/src/Decompressing/dekomprimert.txt" />
-        <option value="$PROJECT_DIR$/Øving12/src/Decompressing/Main.java" />
         <option value="$PROJECT_DIR$/Øving12/src/Decompressing/LempelZivDekompresjon.java" />
         <option value="$PROJECT_DIR$/Øving12/src/Compressing/LZ77.java" />
         <option value="$PROJECT_DIR$/Øving12/src/Compressing/LempelZiv.java" />
-        <option value="$PROJECT_DIR$/Øving12/src/Compressing/Main.java" />
         <option value="$PROJECT_DIR$/Øving12/src/Compressing/LempelZivKompresjon.java" />
+        <option value="$PROJECT_DIR$/Øving12/src/Compressing/Main.java" />
+        <option value="$PROJECT_DIR$/Øving12/src/Filer/ukomprimert.txt" />
+        <option value="$PROJECT_DIR$/Øving12/src/Decompressing/Main.java" />
       </list>
     </option>
   </component>
@@ -215,6 +214,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Decompressing" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algoritmer-og-Datastrukturer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Øving12" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Filer" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -238,10 +243,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Svein Jakob Høie\Documents\NTNU 2018-2021\H2019\Algoritmer-og-Datastrukturer\Øving12\src\Filer" />
+      <recent name="C:\Users\Svein Jakob Høie\Documents\NTNU 2018-2021\H2019\Algoritmer-og-Datastrukturer\Øving12\src" />
       <recent name="C:\Users\Svein Jakob Høie\Documents\NTNU 2018-2021\H2019\Algoritmer-og-Datastrukturer\Øving12\src\Compressing" />
       <recent name="C:\Users\Svein Jakob Høie\Documents\NTNU 2018-2021\H2019\Algoritmer-og-Datastrukturer\Øving12" />
       <recent name="C:\Users\Svein Jakob Høie\Documents\NTNU 2018-2021\H2019\Algoritmer-og-Datastrukturer\Øving8\src" />
-      <recent name="C:\Users\Svein Jakob Høie\Documents\NTNU 2018-2021\H2019\Algoritmer-og-Datastrukturer\Øving5\src\Oppgave1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -386,7 +392,7 @@
       <workItem from="1572867022850" duration="5327000" />
       <workItem from="1573127962963" duration="908000" />
       <workItem from="1573463542634" duration="28235000" />
-      <workItem from="1573582335875" duration="818000" />
+      <workItem from="1573582335875" duration="2131000" />
     </task>
     <task id="LOCAL-00001" summary="SJ day1 work">
       <created>1566208543261</created>
@@ -423,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573582392112</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactoring code">
+      <created>1573583217862</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573583217862</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141913000" />
+    <option name="totallyTimeSpent" value="143226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -442,7 +455,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15677966" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31920904" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32909605" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -474,7 +487,8 @@
     <MESSAGE value="SJ AlgDat øving2 - init" />
     <MESSAGE value="SJ AlgDat øving2 - comp" />
     <MESSAGE value="SJ AlgDat øvinger added" />
-    <option name="LAST_COMMIT_MESSAGE" value="SJ AlgDat øvinger added" />
+    <MESSAGE value="Refactoring code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -755,20 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Øving12/src/Compressing/komprimert.lz">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øving12/src/Decompressing/dekomprimert.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Øving12/src/Compressing/LempelZivKompresjon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
@@ -779,34 +779,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Øving12/src/Compressing/LempelZivKompresjon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="46" selection-start-line="103" selection-start-column="46" selection-end-line="103" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Øving12/src/FileAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øving12/src/Compressing/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øving12/src/Decompressing/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øving12/src/Compressing/LempelZivKompresjon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="100" column="34" lean-forward="true" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,8 +808,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Øving12/src/Compressing/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Øving12/src/Decompressing/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Øving12/src/Filer/komprimert.lz">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Øving12/src/Filer/ukomprimert.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Øving12/src/Filer/dekomprimert.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>

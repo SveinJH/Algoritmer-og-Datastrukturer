@@ -83,7 +83,7 @@ public class LempelZivKompresjon {
 
     private byte[] readBytesFromFile() {
         try {
-            return Files.readAllBytes(Paths.get("Øving12\\src\\Compressing\\input.txt"));
+            return Files.readAllBytes(Paths.get(this.filInn));
         } catch(IOException ioe) {
             ioe.printStackTrace();
         }
@@ -101,7 +101,7 @@ public class LempelZivKompresjon {
     public void kjorKompresjon() {
         byte[] lestData = readBytesFromFile();
         byte[] komprimert = compress(lestData);
-        writeDataToFile(komprimert, "Øving12\\src\\Compressing\\komprimert.lz");
+        writeDataToFile(komprimert, this.filUt);
 
     }
 }
